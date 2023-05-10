@@ -242,9 +242,109 @@ body {
     background-color: #297fc6;
     
 }
+footer{
+    margin-top: 19%;
+}
+.ly_footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #222;
+  }
+  
+  .hp_btGray {
+	border-top: 1px solid #777 !important;
+  }
+  
+  .ly_footer_inner {
+	max-width: 1230px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 
-
+  }
+  ly_footer_inner, a{
+	font-size: 40px;
+    padding-left: 10%;
+	-webkit-text-stroke:1px rgb(255, 255, 255);
+  }
+  
+  .bl_footerNav {
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  .bl_footerNav_item {
+	flex: 1;
+	text-align: center;
+  }
+  
+  .bl_footerNav_item > *:last-child {
+	margin-bottom: 0;
+  }
+  
+  .bl_footerNav_item:last-child .bl_footerNav_link::after {
+	content: none;
+  }
+  
+  .bl_footerNav_link {
+	position: relative;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  .bl_footerNav_link:focus,
+  .bl_footerNav_link:hover {
+	text-decoration: underline;
+  }
+  
+  .bl_footerNav_link::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 1px;
+	height: 15px;
+	background-color: currentColor;
+	transform: translateY(-50%);
+  }
+  
+  .bl_footerChildNav {
+	/* css-wipeではスタイリングなし */
+  }
+  
+  .bl_footerChildNav_item {
+	margin-bottom: 10px;
+  }
+  
+  .bl_footerChildNav_link {
+	color: #ddd;
+	font-size: 15px;
+	text-decoration: none;
+  }
+  
+  .bl_footerChildNav_link:focus,
+  .bl_footerChildNav_link:hover {
+	text-decoration: underline;
+  }
+  
+  .el_footerCopyright {
+	display: block;
+	color: #ddd;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+  }
+  
+  
 @media screen and (max-width: 1290px) {
+    footer{
+        display: none;
+        }
     .text-encrypt {
         margin-left: 70px;
         width: 590px;
@@ -272,6 +372,9 @@ body {
 }
 
 @media screen and (max-width: 1010px) {
+    footer{
+        display: none;    }
+
     body{
         display: flex;
         flex-direction: column;
@@ -353,6 +456,9 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+    footer{
+        display: none;
+    }
     .text-encrypt {
         width: 80%;
     }
