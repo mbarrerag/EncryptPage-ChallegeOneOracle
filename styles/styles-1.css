@@ -267,6 +267,7 @@ footer{
 	font-size: 40px;
     padding-left: 10%;
 	-webkit-text-stroke:1px rgb(255, 255, 255);
+    text-decoration: none;
   }
   
   .bl_footerNav {
