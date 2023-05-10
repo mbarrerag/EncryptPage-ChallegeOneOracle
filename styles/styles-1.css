@@ -224,14 +224,13 @@ body {
 }
 
 .copy-btn {
-    /*display: none;*/
-    background-image: url("../images/coppy1.png");
+    display: none;
     outline: 0;
-    margin: 8% 0 0 18%;
+    margin: 8% 0 0 20%;
     border: 0;
     cursor: pointer;
     background-color: #4299e1;
-    border-radius: 90px;
+    border-radius: 120px;
     padding: 20px 80px;
     font-size: 16px;
     font-weight: 700;
@@ -239,7 +238,10 @@ body {
     line-height: 26px;
 }
 
-
+.copy-btn:hover{
+    background-color: #297fc6;
+    
+}
 
 
 @media screen and (max-width: 1290px) {
@@ -262,6 +264,7 @@ body {
 
     .copy-btn {
         width: 236px;
+        margin: 0 0 0 1%;
     }
     .box-btn{
         margin-left: 50px;
