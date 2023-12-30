@@ -4,7 +4,7 @@ This is a simple web application that allows users to encrypt and decrypt inform
 # Live Demo
 You can try out the live demo of the webpage by visiting the following link:
 
-# https://mbarrerag.github.io/EncryptPage-ChallegeOneOracle
+Link: https://mbarrerag.github.io/EncryptPage-ChallegeOneOracle
 # Features
 Input field to enter the information to encrypt or decrypt.
 Encryption button to encrypt the entered information.
